@@ -1,0 +1,7 @@
+.icon {
+    fill: var(--full-white);
+}
+
+.icon:hover {
+    fill: var(--secondary-color);
+}
