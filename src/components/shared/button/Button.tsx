@@ -12,7 +12,16 @@ export function Button({ variant, children }: ButtonProps) {
 		outlined: "btn--outlined",
 	};
 
+	function handleClick() {
+		console.log("Hello World");
+		return;
+	}
+
 	const className = classMap[variant] || classMap.primary;
 
-	return <button className={className}>{children}</button>;
+	return (
+		<button className={className} onClick={handleClick}>
+			{children}
+		</button>
+	);
 }
