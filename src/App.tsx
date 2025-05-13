@@ -1,10 +1,9 @@
-
-import './App.css'
+import "./App.css";
 
 function App() {
-
-  return (
+	return (
 		<>
+
 			{/* <Navbar />
 			<MobileMenu />
 			<Hero />
@@ -17,4 +16,4 @@ function App() {
 	);
 }
 
-export default App
+export default App;
