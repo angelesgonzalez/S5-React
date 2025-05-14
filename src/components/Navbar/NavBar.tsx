@@ -1,11 +1,17 @@
 import "./NavBar.css";
-import { NavLinks } from "./NavLinks";
+import { NavLinks } from "../shared/NavLinks/NavLinks";
 import { MenuToggleButton } from "../shared/MenuToggleButton/MenuToggleButton";
 import { Button } from "../shared/Button/Button";
 import bookmarkLogo from "../../assets/logo-bookmark.svg";
 
-function handleClick() {
+function showMobileMenu() {
 	//aqui abrira y cerrara el mobileMenu
+	console.log("Burguer Menu clickado");
+}
+
+function handleClickButton() {
+	//aqui abrira un link desde el button
+	console.log("Boton secondario clickado desde nav");
 }
 
 export function NavBar() {
@@ -14,12 +20,14 @@ export function NavBar() {
 			<nav className="header-nav">
 				<img src={bookmarkLogo}></img>
 				<div className="header-nav__desktop-container">
-					<NavLinks />
-					<Button variant="secondary">LOGIN</Button>
+					<NavLinks className="header-nav__desktop-list" />
+					<Button variant="secondary" onClick={() => handleClickButton()}>
+						LOGIN
+					</Button>
 				</div>
 				<MenuToggleButton
 					icon="burguer"
-					onClick={() => handleClick()}
+					onClick={() => showMobileMenu()}
 					label="Burguer Menu"
 					className="header-nav__burger-btn"
 				/>

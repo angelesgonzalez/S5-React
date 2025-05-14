@@ -2,9 +2,10 @@ import "./Button.css";
 
 type ButtonProps = {
 	variant: "primary" | "secondary" | "ghost" | "outlined";
+	onClick: () => void;
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
-export function Button({ variant, children }: ButtonProps) {
+export function Button({ variant, children, onClick }: ButtonProps) {
 	const classMap = {
 		primary: "btn--primary",
 		secondary: "btn--secondary",
@@ -12,15 +13,10 @@ export function Button({ variant, children }: ButtonProps) {
 		outlined: "btn--outlined",
 	};
 
-	function handleClick() {
-		console.log("Hello World");
-		return;
-	}
-
 	const className = classMap[variant] || classMap.primary;
 
 	return (
-		<button className={className} onClick={handleClick}>
+		<button className={className} onClick={onClick}>
 			{children}
 		</button>
 	);

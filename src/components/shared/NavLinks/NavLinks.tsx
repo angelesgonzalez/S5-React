@@ -1,6 +1,10 @@
-export function NavLinks() {
+type NavLinksProps = {
+	className: string;
+};
+
+export function NavLinks({ className }: NavLinksProps) {
 	return (
-		<ul className="header-nav__desktop-list">
+		<ul className={className}>
 			<li>
 				<a href="#">FEATURES</a>
 			</li>
@@ -13,3 +17,4 @@ export function NavLinks() {
 		</ul>
 	);
 }
+
