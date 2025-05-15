@@ -2,7 +2,7 @@ type NavLinksProps = {
 	className: string;
 };
 
-export function NavLinks({ className }: NavLinksProps) {
+export const NavLinks = ({ className }: NavLinksProps) => {
 	return (
 		<ul className={className}>
 			<li>
@@ -16,5 +16,4 @@ export function NavLinks({ className }: NavLinksProps) {
 			</li>
 		</ul>
 	);
-}
-
+};

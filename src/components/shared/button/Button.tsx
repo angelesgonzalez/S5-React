@@ -5,7 +5,7 @@ type ButtonProps = {
 	onClick: () => void;
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
-export function Button({ variant, children, onClick }: ButtonProps) {
+export const Button = ({ variant, children, onClick }: ButtonProps) => {
 	const classMap = {
 		primary: "btn--primary",
 		secondary: "btn--secondary",
@@ -20,4 +20,4 @@ export function Button({ variant, children, onClick }: ButtonProps) {
 			{children}
 		</button>
 	);
-}
+};

@@ -5,7 +5,12 @@ type Props = {
 	className?: string;
 };
 
-export function MenuToggleButton({ icon, onClick, label, className }: Props) {
+export const MenuToggleButton = ({
+	icon,
+	onClick,
+	label,
+	className,
+}: Props) => {
 	return (
 		<>
 			<button onClick={onClick} className={className} aria-label={label}>
@@ -31,4 +36,4 @@ export function MenuToggleButton({ icon, onClick, label, className }: Props) {
 			</button>
 		</>
 	);
-}
+};

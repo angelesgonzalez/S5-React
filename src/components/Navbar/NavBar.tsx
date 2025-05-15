@@ -14,11 +14,11 @@ function handleClickButton() {
 	console.log("Boton secondario clickado desde nav");
 }
 
-export function NavBar() {
+export const NavBar = () => {
 	return (
 		<>
 			<nav className="header-nav">
-				<img src={bookmarkLogo}></img>
+				<img src={bookmarkLogo} alt="Bookmark logo" />
 				<div className="header-nav__desktop-container">
 					<NavLinks className="header-nav__desktop-list" />
 					<Button variant="secondary" onClick={() => handleClickButton()}>
@@ -34,4 +34,4 @@ export function NavBar() {
 			</nav>
 		</>
 	);
-}
+};
