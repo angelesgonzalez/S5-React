@@ -1,5 +1,5 @@
 import "./Hero.css";
-import { Button } from "../shared/Button/Button";
+import { Button } from "../00-shared/Button/Button";
 import heroImg from "../../assets/illustration-hero.svg";
 
 export const Hero = () => {

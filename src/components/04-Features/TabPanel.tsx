@@ -1,4 +1,4 @@
-import { Button } from "../shared/Button/Button";
+import { Button } from "../00-shared/Button/Button";
 
 type Props = {
 	id: number;

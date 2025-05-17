@@ -1,9 +1,9 @@
 import "./App.css";
 import { useState } from "react";
-import { NavBar } from "./components/Navbar/NavBar";
-import { MobileMenu } from "./components/MobileMenu/MobileMenu";
-import { Hero } from "./components/Hero/Hero";
-import { Features } from "./components/Features/Features";
+import { NavBar } from "./components/01-Navbar/NavBar";
+import { MobileMenu } from "./components/02-MobileMenu/MobileMenu";
+import { Hero } from "./components/03-Hero/Hero";
+import { Features } from "./components/04-Features/Features";
 
 function App() {
 	const [isMobileMenuVisible, setMobileMenuVisible] = useState(false);

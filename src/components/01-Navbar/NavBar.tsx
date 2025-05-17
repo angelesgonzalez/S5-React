@@ -1,7 +1,7 @@
 import "./NavBar.css";
-import { NavLinks } from "../shared/NavLinks/NavLinks";
-import { MenuToggleButton } from "../shared/MenuToggleButton/MenuToggleButton";
-import { Button } from "../shared/Button/Button";
+import { NavLinks } from "../00-shared/NavLinks/NavLinks";
+import { MenuToggleButton } from "../00-shared/MenuToggleButton/MenuToggleButton";
+import { Button } from "../00-shared/Button/Button";
 import bookmarkLogo from "../../assets/logo-bookmark.svg";
 
 function handleClick() {}

@@ -1,8 +1,8 @@
 import "./MobileMenu.css";
-import { MenuToggleButton } from "../shared/MenuToggleButton/MenuToggleButton";
-import { NavLinks } from "../shared/NavLinks/NavLinks";
-import { Button } from "../shared/Button/Button";
-import { Icon } from "../shared/icon/icon";
+import { MenuToggleButton } from "../00-shared/MenuToggleButton/MenuToggleButton";
+import { NavLinks } from "../00-shared/NavLinks/NavLinks";
+import { Button } from "../00-shared/Button/Button";
+import { Icon } from "../00-shared/icon/icon";
 
 function handleClick() {}
 
