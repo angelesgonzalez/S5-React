@@ -4,17 +4,15 @@ import { MenuToggleButton } from "../shared/MenuToggleButton/MenuToggleButton";
 import { Button } from "../shared/Button/Button";
 import bookmarkLogo from "../../assets/logo-bookmark.svg";
 
-function showMobileMenu() {
-	//aqui abrira y cerrara el mobileMenu
-	console.log("Burguer Menu clickado");
-}
-
 function handleClickButton() {
-	//aqui abrira un link desde el button
 	console.log("Boton secondario clickado desde nav");
 }
 
-export const NavBar = () => {
+type NavBarProps = {
+	onToggleMenu: () => void;
+};
+
+export const NavBar = ({ onToggleMenu }: NavBarProps) => {
 	return (
 		<>
 			<nav className="header-nav">
@@ -27,7 +25,7 @@ export const NavBar = () => {
 				</div>
 				<MenuToggleButton
 					icon="burguer"
-					onClick={() => showMobileMenu()}
+					onClick={onToggleMenu}
 					label="Burguer Menu"
 					className="header-nav__burger-btn"
 				/>
