@@ -109,7 +109,7 @@
     margin-top: var(--spacing-md);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1078px) {
 
     .features p {
         width: 50vw;

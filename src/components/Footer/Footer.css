@@ -55,7 +55,7 @@
     align-items: baseline;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1078px) {
 
     .footer__content {
         flex-direction: row;

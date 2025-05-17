@@ -48,7 +48,7 @@ a:hover {
 }
 
 
-@media (min-width: 900px) {
+@media (min-width: 1078px) {
     p {
         font-size: var(--font-size-md);
     }

@@ -42,7 +42,7 @@
     margin-bottom: var(--spacing-xl);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1078px) {
 
     .hero {
         flex-direction: row-reverse;

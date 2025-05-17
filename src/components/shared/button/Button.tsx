@@ -2,7 +2,7 @@ import "./Button.css";
 
 type ButtonProps = {
 	variant: "primary" | "secondary" | "ghost" | "outlined";
-	onClick: () => void;
+	onClick?: () => void;
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export const Button = ({ variant, children, onClick }: ButtonProps) => {
