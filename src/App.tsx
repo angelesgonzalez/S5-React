@@ -5,7 +5,6 @@ import { MobileMenu } from "./components/MobileMenu/MobileMenu";
 
 function App() {
 	const [isMobileMenuVisible, setMobileMenuVisible] = useState(false);
-
 	const toggleMobileMenu = () => setMobileMenuVisible((current) => !current);
 
 	return (

@@ -4,9 +4,7 @@ import { MenuToggleButton } from "../shared/MenuToggleButton/MenuToggleButton";
 import { Button } from "../shared/Button/Button";
 import bookmarkLogo from "../../assets/logo-bookmark.svg";
 
-function handleClickButton() {
-	console.log("Boton secondario clickado desde nav");
-}
+function handleClick() {}
 
 type NavBarProps = {
 	onToggleMenu: () => void;
@@ -19,7 +17,7 @@ export const NavBar = ({ onToggleMenu }: NavBarProps) => {
 				<img src={bookmarkLogo} alt="Bookmark logo" />
 				<div className="header-nav__desktop-container">
 					<NavLinks className="header-nav__desktop-list" />
-					<Button variant="secondary" onClick={() => handleClickButton()}>
+					<Button variant="secondary" onClick={() => handleClick()}>
 						LOGIN
 					</Button>
 				</div>

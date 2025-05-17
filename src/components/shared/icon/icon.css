@@ -1,7 +1,12 @@
 .icon {
-    fill: var(--full-white);
+    color: var(--full-white);
+
+}
+
+.burguer-icon {
+    color: var(--neutral-very-dark-blue);
 }
 
 .icon:hover {
-    fill: var(--secondary-color);
+    color: var(--secondary-color);
 }
