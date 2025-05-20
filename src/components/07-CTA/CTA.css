@@ -1,4 +1,3 @@
-/* Newsletter */
 .cta {
     display: flex;
     flex-direction: column;
@@ -46,7 +45,7 @@
 
 @media (min-width: 1078px) {
 
-    /* Newsletter */
+
     .cta__form {
         flex-direction: row;
         align-items: center;

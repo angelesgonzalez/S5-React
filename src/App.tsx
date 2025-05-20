@@ -6,6 +6,7 @@ import { Hero } from "./components/03-Hero/Hero";
 import { Features } from "./components/04-Features/Features";
 import { Download } from "./components/05-Download/Download";
 import { FAQ } from "./components/06-FAQ/FAQ";
+import { CTA } from "./components/07-CTA/CTA";
 
 function App() {
 	const [isMobileMenuVisible, setMobileMenuVisible] = useState(false);
@@ -22,6 +23,7 @@ function App() {
 				<Download />
 				<FAQ></FAQ>
 			</main>
+			<CTA></CTA>
 		</>
 	);
 }
