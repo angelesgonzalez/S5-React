@@ -1,0 +1,150 @@
+/* Tablets/Desktop screens */
+@media (min-width: 1078px) {
+    p {
+        font-size: var(--font-size-md);
+    }
+
+    main {
+        padding: var(--spacing-xxl);
+    }
+
+    .header-nav__burger-btn {
+        display: none;
+    }
+
+    .header-nav__desktop-container {
+        display: flex;
+    }
+
+    /* Hero section */
+    .hero {
+        flex-direction: row-reverse;
+    }
+
+    .hero__image {
+        width: auto;
+    }
+
+    .hero__content {
+        width: 40vw;
+        flex-direction: row;
+    }
+
+    .hero__cta-container {
+        flex-direction: row;
+    }
+
+    .hero__text {
+        justify-content: start;
+    }
+
+    .hero__text p {
+        text-align: left;
+        padding: 0;
+    }
+
+    .hero__text h1 {
+        text-align: left;
+    }
+
+    .hero__image-wrapper {
+        flex-grow: 2;
+    }
+
+    /* Features section */
+    .features p {
+        width: 50vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: var(--border-radius-lg);
+    }
+
+    .features__tab-nav {
+        flex-direction: row;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .features__panel.is-active {
+        flex-direction: row;
+    }
+
+    .features__tab-btn:first-child {
+        border-top: none;
+    }
+
+    .features__content {
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .features__content p {
+        text-align: left;
+        padding: 0;
+    }
+
+    /* Download section */
+    .download__cards {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    #card-firefox {
+        margin-top: 5%;
+    }
+
+    #card-opera {
+        margin-top: 10%;
+    }
+
+    .download__text p {
+        width: 50vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* FAQ section */
+    .faq {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60vw;
+    }
+
+    .faq .btn--primary {
+        width: auto;
+    }
+
+    .faq__text {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: var(--spacing-md);
+        width: 50vw;
+    }
+
+    /* Newsletter */
+    .cta__form {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cta input {
+        width: 301px;
+    }
+
+    /* Footer */
+    .footer__content {
+        flex-direction: row;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer ul {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: var(--font-size-xxl);
+    }
+}
