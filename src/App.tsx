@@ -7,6 +7,7 @@ import { Features } from "./components/04-Features/Features";
 import { Download } from "./components/05-Download/Download";
 import { FAQ } from "./components/06-FAQ/FAQ";
 import { CTA } from "./components/07-CTA/CTA";
+import { Footer } from "./components/08-Footer/Footer";
 
 function App() {
 	const [isMobileMenuVisible, setMobileMenuVisible] = useState(false);
@@ -24,6 +25,7 @@ function App() {
 				<FAQ></FAQ>
 			</main>
 			<CTA></CTA>
+			<Footer></Footer>
 		</>
 	);
 }

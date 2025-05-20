@@ -1,4 +1,4 @@
-import { Icon } from "../icon/icon";
+import { Icon } from "../icon/Icon";
 
 type Props = {
 	icon: "burguer" | "close";

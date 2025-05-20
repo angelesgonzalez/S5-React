@@ -2,7 +2,7 @@ import "./MobileMenu.css";
 import { MenuToggleButton } from "../00-shared/MenuToggleButton/MenuToggleButton";
 import { NavLinks } from "../00-shared/NavLinks/NavLinks";
 import { Button } from "../00-shared/Button/Button";
-import { Icon } from "../00-shared/icon/icon";
+import { Icon } from "../00-shared/icon/Icon";
 
 function handleClick() {}
 
