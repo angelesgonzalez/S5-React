@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { Icon } from "../00-shared/icon/Icon";
+import { Icon } from "../00-shared/Icon/Icon";
 import { NavLinks } from "../00-shared/NavLinks/NavLinks";
 
 export const Footer = () => {
